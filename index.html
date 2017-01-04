@@ -4,3 +4,14 @@ layout: default
 
 <h1>hello world</h1>
 <p>hi Eric</p>
+<h2>Type of blog</h2>
+<ol>
+{% for planet in site.categories.recently %}
+
+  <li>
+    <a href="#">{{planet.title}}</a>
+    {{planet.content}}
+  </li>
+
+{% endfor %}
+</ol>
