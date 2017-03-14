@@ -1,3 +1,5 @@
 markdown: redcarpet
 baseurl: /blog
 exclude: ['README.md']
+
+theme: jekyll-theme-minimal
