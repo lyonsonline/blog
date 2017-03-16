@@ -4,6 +4,7 @@ title: "Swift3进阶学习(1)"
 date: 2017-03-01
 excerpt: "对advanced swift学习记录"
 tags: [IOS, Swift, 进阶]
+feature: http://i.imgur.com/Ds6S7lJ.png
 comments: true
 ---
 1. 序列是可以无限的,集合不可以
