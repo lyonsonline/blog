@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Swift3进阶学习(3)"
+date: 2017-03-03
+excerpt: "对advanced swift学习记录"
+tags: [IOS, Swift, 进阶]
+comments: true
+---
 ## 向前索引
 
 > 因为单链表只支持向前索引,所以 列表属性有 first, 而没有 last.想得到 last 属性是一个O(n)的操作
@@ -14,7 +22,7 @@
 extension BidirectionalCollection {
 	/// 集合中的最后一个元素。
 	public var last: Iterator.Element? {
-		return isEmpty ? nil : self[index(before: endIndex)] 
+		return isEmpty ? nil : self[index(before: endIndex)]
 	}
 }
 ```
@@ -30,4 +38,3 @@ String.CharacterView 是一个双向索引集合的例子.因为 Unicode 的原�
 ## MutableCollection
 
 > 可变集合支持原地的元素修改,相比 Collection,mutableCollection 增加了一个`subscript`方法,必须提供 setter 方法
-
