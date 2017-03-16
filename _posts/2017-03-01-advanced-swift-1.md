@@ -1,3 +1,11 @@
+---
+layout: post
+title: "Swift3进阶学习(1)"
+date: 2017-02-03
+excerpt: "对advanced swift学习记录"
+tags: [IOS, Swift, 进阶]
+comments: true
+---
 1. 序列是可以无限的,集合不可以
 
 2. 满足 sequence的协议
@@ -24,7 +32,7 @@
 7. 遵守 ExpressibleByArrayLiteral 协议
 
    ```swift
-   extension FIFOQueue: ExpressibleByArrayLiteral { 
+   extension FIFOQueue: ExpressibleByArrayLiteral {
    	public init (arrayLiteral elements: Element...) {
    		self.init(left: elements.reversed(),right: []) }
    }			

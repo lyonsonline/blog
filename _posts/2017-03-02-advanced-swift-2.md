@@ -1,5 +1,11 @@
 ---
 typora-copy-images-to: ./advance-swift学习笔记(2)/images
+layout: post
+title: "Swift3进阶学习(2)"
+date: 2017-02-02
+excerpt: "对advanced swift学习记录"
+tags: [IOS, Swift, 进阶]
+comments: true
 ---
 
 - 字典的索引值不是Key,是`DictionaryIndex`类型
@@ -57,9 +63,10 @@ typora-copy-images-to: ./advance-swift学习笔记(2)/images
   >
   > Apple警告⚠️:切片只能当做临时计算
   >
-  > ![20170306list释放(/Users/lyonseric/Library/Mobile Documents/com~apple~CloudDocs/Note/advance-swift学习笔记(2)/images/20170306list释放(1).png)](/Users/lyonseric/Library/Mobile Documents/com~apple~CloudDocs/Note/20170306list释放(1).png)在list中因为ARC的存在,当没有引用时,节点自动释放,注意的是list后面的节点不会释放
+  > ![20170306list释放1]({{ site.url }}/assets/img/posts/20170306list释放(1).png)
+  在list中因为ARC的存在,当没有引用时,节点自动释放,注意的是list后面的节点不会释放
   >
-  > ![20170306list释放(/Users/lyonseric/Library/Mobile Documents/com~apple~CloudDocs/Note/advance-swift学习笔记(2)/images/20170306list释放(2).png)](/Users/lyonseric/Library/Mobile Documents/com~apple~CloudDocs/Note/20170306list释放(2).png)
+  > ![20170306list释放2]({{ site.url }}/assets/img/posts/20170306list释放(2).png)
 
 - 在`Collection`协议上的拓展协议
 
