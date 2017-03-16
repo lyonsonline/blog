@@ -13,13 +13,21 @@ url:                https://lyonsonline.github.io/blog
 # Jekyll
 permalink:          /:title/
 markdown:           kramdown
-highlighter:        rouge
+highlighter:        rouge  #pygments
+# redcarpet:
+#   extensions:
+#     - fenced_code_blocks
+#     - no_intra_emphasis
+#     - strikethrough
+#     - autolink
+#     - tables
 kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
+ input:            GFM
+ auto_ids:         true
+ footnote_nr:      1
+ entity_output:    as_char
+ toc_levels:       1..6
+ enable_coderay:   false
 mathjax:            true
 sass:
   sass_dir:         _sass
@@ -68,6 +76,7 @@ gems:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-gist
+  - pygments.rb
 
 jekyll-mentions:
     base_url: https://github.com
