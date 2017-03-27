@@ -38,19 +38,19 @@ comments: true
   }
   ```
   满足`ELSegmentDelegate`可以响应 button 的点击事件
-  ~~~ swift
+  ``` swift
   protocol ELSegmentViewDelegate: class {
     func segmentView(_ segmentView: ELSegmentView, didSelectRowAt index: Int)
-}
-  ~~~
+  }
+  ```
   在`ViewController`将代理赋给`self`
   `segmentView.delegate = self`
   满足协议
-  ~~~ swift
+  ``` swift
   extension ViewController: ELSegmentViewDelegate {
     func segmentView(_ segmentView: ELSegmentView, didSelectRowAt index: Int) {
         print(index)
     }
-}
-  ~~~
+  }
+  ```
   > 协议提供默认实现
