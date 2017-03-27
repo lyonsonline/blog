@@ -55,4 +55,4 @@ comments: true
   ```
   > 协议提供默认实现
 
-  <iframe src="https://github.com/lyonsonline/ELSegmentView" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> 
+  <iframe src="https://ghbtns.com/github-btn.html?user=lyonsonline&repo=ELSegmentView&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> 
