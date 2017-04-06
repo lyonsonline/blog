@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "SegmentView"
-date:   2016-04-06
+date:   2017-03-06
 excerpt: " 实现Segment, 线段随着 button 点击移动"
 project: true
 tag:
@@ -12,7 +12,7 @@ tag:
 comments: true
 ---
 # ELSegmentView
-<iframe src="https://ghbtns.com/github-btn.html?user=lyonsonline&repo=ELSegmentView&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe> 
+<iframe src="https://ghbtns.com/github-btn.html?user=lyonsonline&repo=ELSegmentView&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
 ![Demo]({{site.url}}/assets/img/projects/ELSegmentViewDemo.gif)
 ## Requirements
 - iOS 8.0+ / Mac OS X 10.11+ / SnapKit
