@@ -18,6 +18,7 @@ comments: true
 - iOS 8.0+ / Mac OS X 10.11+ / SnapKit
 - Xcode 8.0+
 - Swift 3.0+
+
 ## Usage
   `ELSegmentView`使用`SnapKit`设置约束.
   ``` swift
